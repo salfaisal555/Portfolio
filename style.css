@@ -5,16 +5,22 @@ body {
     color:white;
 }
 .panel {
+    display: flex;
+    justify-content: flex-end;
     text-decoration:none;
     color:rgb(13, 2, 66);
-    font-size:1em;
+    align-items: center;
+    font-size:1.2em;
     font-weight:700;
 }
 
 a {
+    display: flex;
+    justify-content: flex-start;
     text-decoration:none;
     color:rgb(13, 2, 66);
-    font-size:1.8em;
+    align-items: center;
+    font-size:1.2em;
     font-weight:700;
 }
 img { 
@@ -23,6 +29,7 @@ img {
 }
 header {
     display: flex;
+    align-items: center;
     background:#FFFFFF;
     padding: 1em;
 }
