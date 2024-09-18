@@ -1,0 +1,59 @@
+body {
+    font-family: 'Source Sans Pro';
+    background:rgb(13, 2, 66);
+    margin:0;
+    color:white;
+}
+.panel {
+    text-decoration:none;
+    color:rgb(13, 2, 66);
+    font-size:1em;
+    font-weight:700;
+}
+
+a {
+    text-decoration:none;
+    color:rgb(13, 2, 66);
+    font-size:1.8em;
+    font-weight:700;
+}
+img { 
+    width: 280px;
+    justify-self: center;
+}
+header {
+    display: flex;
+    background:#FFFFFF;
+    padding: 1em;
+}
+
+.container {
+    display:grid;
+    grid-template-columns: 66% auto;
+    padding: 4em 1em;
+}
+
+footer {
+    background:#050231;
+}
+
+ul {
+    display: grid;
+    margin:0;padding:0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+
+}
+ul li {
+    padding: 2em;
+    color:#8ac1e9;
+}
+ul li span {
+    display:block;
+    font-size:1.4em;
+    margin-bottom:1em;
+    color: white;
+}
