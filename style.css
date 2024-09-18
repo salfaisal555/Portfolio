@@ -1,66 +1,66 @@
 body {
-    font-family: 'Source Sans Pro';
-    background:rgb(13, 2, 66);
-    margin:0;
-    color:white;
+  font-family: "Source Sans Pro";
+  background: rgb(13, 2, 66);
+  margin: 0;
+  color: white;
 }
 .panel {
-    display: flex;
-    justify-content: flex-end;
-    text-decoration:none;
-    color:rgb(13, 2, 66);
-    align-items: center;
-    font-size:1.2em;
-    font-weight:700;
+  display: flex;
+  justify-content: flex-end;
+  text-decoration: none;
+  color: rgb(13, 2, 66);
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 700;
 }
 
 a {
-    display: flex;
-    justify-content: flex-start;
-    text-decoration:none;
-    color:rgb(13, 2, 66);
-    align-items: center;
-    font-size:1.2em;
-    font-weight:700;
+  display: flex;
+  justify-content: flex-start;
+  text-decoration: none;
+  color: rgb(13, 2, 66);
+  align-items: center;
+  font-size: 1.2em;
+  font-weight: 700;
 }
-img { 
-    width: 280px;
-    justify-self: center;
+img {
+  width: 280px;
+  justify-self: center;
 }
 header {
-    display: flex;
-    align-items: center;
-    background:#FFFFFF;
-    padding: 1em;
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 1em;
 }
 
 .container {
-    display:grid;
-    grid-template-columns: 66% auto;
-    padding: 4em 1em;
+  display: grid;
+  grid-template-columns: 66% auto;
+  padding: 4em 1em;
 }
 
 footer {
-    background:#050231;
+  background: #050231;
 }
 
 ul {
-    display: grid;
-    margin:0;padding:0;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-
+  display: grid;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto;
 }
 ul li {
-    padding: 2em;
-    color:#8ac1e9;
+  padding: 2em;
+  color: #8ac1e9;
 }
 ul li span {
-    display:block;
-    font-size:1.4em;
-    margin-bottom:1em;
-    color: white;
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+  color: white;
 }
